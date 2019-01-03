@@ -16,6 +16,17 @@ body {
   overflow: hidden
 }
 
+@media screen and (min-width: 801px) {
+  .navbar-header span {
+    content: 'Policy Competition Team at JHU'
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navbar-header span {
+    content: 'PCT at JHU'
+  }
+}
 .jumbotron {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)), url("./assets/Hop_Small.jpg");
   background-position: center;
