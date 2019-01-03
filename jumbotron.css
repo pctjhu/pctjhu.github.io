@@ -13,18 +13,18 @@ body {
 
 .navbar-header h1 {
   position: relative;
-  overflow: hidden
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 800px) {
   .navbar-header-desktop {
-    display: none
+    display: contents;
   }
 }
 
 @media only screen and (min-width: 801px) {
   .navbar-header-mobile {
-    display: none
+    display: contents;
   }
 }
 
