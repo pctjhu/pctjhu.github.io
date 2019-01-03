@@ -1,0 +1,29 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  font-family: Garamond;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 19px;
+  background-color: rgba(255, 237, 210, 0.45);
+}
+
+.navbar-header img {
+  float: left;
+}
+
+.navbar-header h1 {
+  position: relative;
+  overflow: hidden
+}
+
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)), url("../assets/Hop_Small.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  filter: sepia();
+}
