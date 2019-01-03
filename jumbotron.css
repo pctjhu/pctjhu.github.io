@@ -13,21 +13,14 @@ body {
 
 .navbar-header h1 {
   position: relative;
-  overflow: hidden;
+  overflow: hidden
 }
 
-@media only screen and (max-width: 800px) {
-  .navbar-header-desktop {
-    display: contents;
+@media only screen and (max-width: 1000px) {
+  .navbar-header h1 {
+    display: none
   }
 }
-
-@media only screen and (min-width: 801px) {
-  .navbar-header-mobile {
-    display: contents;
-  }
-}
-
 .jumbotron {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)), url("./assets/Hop_Small.jpg");
   background-position: center;
