@@ -29,16 +29,7 @@ body {
   position: relative;
 }
 
-
-.sponsors {
-  filter: none;
-}
-
-.sponsors img {
-  padding-left: 100px
-}
-
-.container {
+.row{
   filter: sepia();
 }
 
