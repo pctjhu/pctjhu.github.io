@@ -29,6 +29,9 @@ body {
   position: relative;
 }
 
+.sponsors {
+  padding-left: 0px;
+}
 .row{
   filter: sepia();
 }
