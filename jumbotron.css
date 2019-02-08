@@ -15,27 +15,44 @@ body {
 .navbar-header h1 {
   filter: sepia();
   position: relative;
-  overflow: hidden
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 1000px) {
   .navbar-header h1 {
-    display: none
+    display: none;
   }
 }
+
 .jumbotron {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0,0,0,0.8)), url("./assets/Hop_Small.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  filter: sepia();
+}
+
+.jumbotron h1 {
+  filter: sepia()
+}
+
+.jumbotron h3 {
+  filter: sepia()
+}
+
+.jumbotron h4 {
+  filter: sepia()
+}
+
+.jumbotron p {
+  filter: sepia()
 }
 
 .sponsors {
   padding-left: 0px;
   filter: none;
 }
+
 .row{
   filter: sepia();
 }
