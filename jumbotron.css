@@ -32,8 +32,12 @@ body {
 
 .sponsors {
   filter: none;
-  padding-left: 300px;
 }
+
+.sponsors img {
+  padding-left: 75px
+}
+
 .container {
   filter: sepia();
 }
