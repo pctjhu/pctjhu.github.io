@@ -32,7 +32,7 @@ body {
 
 .sponsors {
   filter: none;
-  padding-left: 50px;
+  padding-left: 300px;
 }
 .container {
   filter: sepia();
