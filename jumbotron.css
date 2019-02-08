@@ -53,7 +53,7 @@ body {
   filter: none;
 }
 
-.row{
+.row {
   filter: sepia();
 }
 
