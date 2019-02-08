@@ -30,22 +30,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
-
-.jumbotron h1 {
-  filter: sepia()
-}
-
-.jumbotron h3 {
-  filter: sepia()
-}
-
-.jumbotron h4 {
-  filter: sepia()
-}
-
-.jumbotron p {
-  filter: sepia()
+  filter: sepia();
 }
 
 .sponsors {
